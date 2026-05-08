@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "username": "heloo",
+      "email": "helo@gmail.com",
+      "password": "1234",
+      "id": "pZ7XS79FzQc"
+    },
+    {
+      "username": "hello",
+      "email": "ghjgfj44w.@gamil.com",
+      "password": "5566",
+      "confirmPassword": "5566",
+      "id": "4bGYmQTHsV4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,77 @@
+  body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right bottom, #0a0a0a, #130f49);
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      text-decoration-color: aqua;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+
+    form {
+      background: linear-gradient(to top right,  #130f49,#0a0a0a );
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.356);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+      color: white;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #06b1cfb2;
+      border-radius: 5px;
+      color: rgb(8, 0, 0);
+    }
+
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background: #1976d2;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #880da1;
+       background-color: #00e6e6;
+      box-shadow: 0 0 15px #00ffff;
+    }
+
+    footer {
+      background-color: #130f49;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
