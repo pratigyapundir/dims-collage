@@ -297,6 +297,7 @@
       background-color: #180472;
       color: #e0e0e0;
       border: none;
+      /* border-radius: 30%; */
       padding: 10px 20px;
       margin: 0 5px;
       cursor: pointer;
