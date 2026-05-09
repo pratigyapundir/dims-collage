@@ -31,7 +31,7 @@ const signinForm = document.getElementById("signin-form");
 
       if (email && pass) {
         // Simulate success
-        window.location.href = "/dims-collage/frontend/next.html";
+        window.location.href = "/dims-collage/next.html";
       } else {
         alert("Please fill out all fields.");
       }
@@ -59,7 +59,7 @@ const signinForm = document.getElementById("signin-form");
           return;
         }
         // Simulate success
-        window.location.href = "/dims-collage/frontend/next.html";
+        window.location.href = "/dims-collage/next.html";
       } else {
         alert("Please fill out all fields.");
       }

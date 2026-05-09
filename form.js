@@ -12,7 +12,7 @@
       .then(response => response.text())
       .then(data => {
         // ✅ Show next page or redirect
-        window.location.href = "/frontend/next.html";  // or show confirmation inline
+        window.location.href = "/dims-collage/next.html";  // or show confirmation inline
         })
         .catch(error => {
           alert("Submission failed.");
